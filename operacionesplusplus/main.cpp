@@ -2,11 +2,26 @@
 
 #include <iostream>
 #include <cmath>// math.h
+#define PI 3.14159 // La constante
+
 using namespace std;
 
 int main()
 {
 
+    /*CONSTANTES
+    Se pueden definir de dos maneras:
+    1. - #define PI 3.14159
+    2. - const double PI = 3.14159
+    */
+
+    const double PI2 = 3.14159;
+
+    cout<<PI<<endl;// Constante definida fuera del main
+    cout<<PI2<<endl;// Constante definida dentro del main
+
+    cout<<"\n"<<endl;
+    // ---------------------------------------------
 
     // LIBRERIA CMATH
 
