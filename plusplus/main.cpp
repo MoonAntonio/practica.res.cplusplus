@@ -1,13 +1,36 @@
-
 // Practica para refrescar la sintaxis de C++
 
-
 #include <iostream>
-
 using namespace std;
 
 int main()
 {
+    /*TIPO INT
+        Tamaño en bytes = 4(varia)
+        Nº de valores = 2^32 = 4,294,967,296
+        Rango = de -2,147,483,648 a 2,147,483,647
+        32 bits
+        1 bit -> signo
+        31 bits -> valores que puede tomar -> 2^31 -> 2,147,483,648
+        32 bits -> 2^32 = 4,294,967,296
+
+        unsigned -> sin signo
+        unsigned int -> 32 bits para los valores
+        2^32 = 4,294,967,296
+        Rango -> 0 hasta 4,294,967,295
+    */
+
+    int numero = -1;
+    unsigned int numero2 = -1;
+
+    cout<<numero<<endl;
+    cout<<numero2<<endl;
+    //cout<<sizeof(int)<<endl; sizeof devuelve el tamaño en bytes del int en memoria
+
+
+    cout<<"\n"<<endl;
+    // ---------------------------------------------
+
     /*TIPO CHAR
         Tamaño en bytes = 1
         Nº de valores = 256
@@ -80,5 +103,7 @@ int main()
     cout << "Hello\b" << "world!\n" << endl;
     cout << "Hello\r" << "world!\n" << endl;
     cout << "Hello\t" << "world!\n" << endl;
+
+    // Fin
     return 0;
 }
