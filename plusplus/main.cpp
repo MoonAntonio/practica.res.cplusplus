@@ -5,6 +5,19 @@ using namespace std;
 
 int main()
 {
+    /*TIPO              BOOL             FLOAT          DOUBLE
+        Bytes =        1 byte           4 bytes         8 bytes
+        Rango =           -      1.17e-38 a 3.40e38   2.22e-308 a 1.80e308
+    */
+
+    cout<<"  Bool: "<<sizeof(bool)<<endl;
+    cout<<" Float: "<<sizeof(float)<<endl;
+    cout<<"Double: "<<sizeof(double)<<endl;
+
+
+    cout<<"\n"<<endl;
+    // ---------------------------------------------
+
     /*TIPO INT
         Tamaño en bytes = 4(varia)
         Nº de valores = 2^32 = 4,294,967,296
