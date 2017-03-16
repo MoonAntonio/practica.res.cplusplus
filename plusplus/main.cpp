@@ -8,7 +8,20 @@ using namespace std;
 
 int main()
 {
+    /* TIPOS DE VARIABLES
+    int -> Integer -> Enteros
+    char -> Character -> Caracter
+    float -> Decimales redondeados -> Reales
+    double -> Decimales reales -> Reales Precisos
+    bool -> Boolean -> logicos
+    */
 
+    // DECLARACION DE VARIABLES
+    int var,varx;
+    char var2;
+    float var3;
+    double varDoble;
+    bool varBool;
 
     /* MENSAJE POR CONSOLA
     cout << "Hello world!" << endl;
