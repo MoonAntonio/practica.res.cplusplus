@@ -1,10 +1,30 @@
 // Practica para refrescar la sintaxis de C++
 
 #include <iostream>
+#include <cmath>// math.h
 using namespace std;
 
 int main()
 {
+
+
+    // LIBRERIA CMATH
+
+    double potencia = pow(5,5);// Potencia
+    double raiz = sqrt(100.0);// Raiz cuadrada
+    double seno = sin(0.523599);// de 30
+    double coseno = cos(1.0472);// de 60
+    double tangente = tan(0.785398);// de 45
+
+    cout<<"Potencia :"<<potencia<<endl;
+    cout<<"Raiz :"<<raiz<<endl;
+    cout<<"Seno :"<<seno<<endl;
+    cout<<"Coseno :"<<coseno<<endl;
+    cout<<"Tangente :"<<tangente<<endl;
+
+    cout<<"\n"<<endl;
+    // ---------------------------------------------
+
     /* OPERADORES LOGICOS
                 Y -> &&
                 O -> ||
