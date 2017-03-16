@@ -8,6 +8,8 @@ using namespace std;
 
 int main()
 {
+    // ---------------------------------------------
+
     /* TIPOS DE VARIABLES
     int -> Integer -> Enteros
     char -> Character -> Caracter
@@ -23,11 +25,14 @@ int main()
     double varDoble;
     bool varBool;
 
+    // ---------------------------------------------
+
     /* MENSAJE POR CONSOLA
     cout << "Hello world!" << endl;
     */
-    cout << "Hello world!" << endl;
+    cout << "Mensaje por consola!\n" << endl;
 
+    // ---------------------------------------------
 
     /*SECUENCIAS DE ESCAPE
     \n -> salto de linea
@@ -35,10 +40,10 @@ int main()
     \r -> intercambia la primera y la segunda
     \t -> tabulador
     */
-    cout << "Hello" << "world!" << endl;
-    cout << "Hello\n" << "world!" << endl;
-    cout << "Hello\b" << "world!" << endl;
-    cout << "Hello\r" << "world!" << endl;
-    cout << "Hello\t" << "world!" << endl;
+    cout << "Hello" << "world!\n" << endl;
+    cout << "Hello\n" << "world!\n" << endl;
+    cout << "Hello\b" << "world!\n" << endl;
+    cout << "Hello\r" << "world!\n" << endl;
+    cout << "Hello\t" << "world!\n" << endl;
     return 0;
 }
