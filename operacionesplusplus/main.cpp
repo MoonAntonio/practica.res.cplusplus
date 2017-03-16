@@ -5,6 +5,33 @@ using namespace std;
 
 int main()
 {
+    /* OPERADORES LOGICOS
+                Y -> &&
+                O -> ||
+               No -> !
+         Igualdad -> ==
+        Diferente -> !=
+            Menor -> <
+            Mayor -> >
+      Menor igual -> <=
+      Mayor igual -> >=
+    */
+
+    bool r1 = (true) || false;// True
+    bool r2 = (5==5) || (6!=2) && !(1==1);// True
+    bool r3 = false && true || false;// False
+    bool r4 = (5<3) || (3>=3) || true;// True
+    bool r5 = ((3<=3) && (5<5) || false);// False
+
+    cout<<r1<<endl;// 3
+    cout<<r2<<endl;// 10
+    cout<<r3<<endl;// 3
+    cout<<r4<<endl;// -2
+    cout<<r5<<endl;// 12
+
+    cout<<"\n"<<endl;
+    // ---------------------------------------------
+
     /* PRECEDENCIA ARITMETICA
     1. - Las operaciones entre parentesis
     2. - Multiplicacion, division y modulo
