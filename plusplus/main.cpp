@@ -5,6 +5,18 @@ using namespace std;
 
 int main()
 {
+    /*ENTRADA POR CONSOLA
+    CIN -> Console INput
+    */
+    int valNumero;
+    cout<<"Ingrese un numero: ";
+    cin>>valNumero;
+    cout<<"El valor ingresado es "<<valNumero<<endl;
+
+
+    cout<<"\n"<<endl;
+    // ---------------------------------------------
+
     /*TIPO              BOOL             FLOAT          DOUBLE
         Bytes =        1 byte           4 bytes         8 bytes
         Rango =           -      1.17e-38 a 3.40e38   2.22e-308 a 1.80e308
