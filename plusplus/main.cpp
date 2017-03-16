@@ -8,6 +8,18 @@ using namespace std;
 
 int main()
 {
+    /*TIPO CHAR
+        Tamaño en bytes = 1
+        Nº de valores = 256
+        Rango = de -128 a 127
+    */
+    char letra = 65;// Codigo ASCII
+    cout<<letra<<endl;
+
+
+    cout<<"\n"<<endl;
+    // ---------------------------------------------
+
     // NOTACION CIENTIFICA
     int valor1 = 3e3;//3*10^3
     double valor2 = 5.3e3;//5.3*10^3
