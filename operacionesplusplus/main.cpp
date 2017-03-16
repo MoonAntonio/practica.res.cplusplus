@@ -5,6 +5,15 @@ using namespace std;
 
 int main()
 {
+    // DIVISION ENTERA Y DIVISION FLOAR/REAL
+
+    cout<<7<<endl;
+    cout<<7.0<<endl;
+    cout<<"\n"<<endl;
+    cout<<7/3<<endl;// Division int
+    cout<<7.0/3<<endl;// Division float
+
+    cout<<"\n"<<endl;
     // ---------------------------------------------
 
     /* OPERADORES MATEMATICOS
