@@ -8,6 +8,16 @@ using namespace std;
 
 int main()
 {
+    // ASIGNACION DE VARIABLES
+    int edad = 30,edadTotal;
+    char nombre = 'Moon';
+    float estatura = 3.10;
+    double estPrecisa = 3.12331;
+    bool esperando = false;
+
+    edadTotal = 25;
+    cout << nombre << endl;
+
     // ---------------------------------------------
 
     /* TIPOS DE VARIABLES
